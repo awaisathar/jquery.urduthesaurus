@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Theasurusize</title>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+	<script src="jquery.urduthesaurus.js"></script>
+	<style>
+	body {
+		direction: rtl;
+		padding:10px;
+	}
+	.ur {
+		font-family: 'Jameel Noori Nastaleeq', 'Noto Naskh Arabic', sans serif;;
+	}
+	#q {
+		vertical-align: middle;
+		direction: rtl;
+		padding: 2px;
+		font-size: 24px;
+	}
+	#kb {
+		width:500px;
+	}
+	a {
+		color:#4ea0e8;
+		text-decoration:none;
+	}
+	</style>
+	<script>
+		$(function() {
+			$('#q').thesaurusize();
+		});
+	</script>
+  </head>
+  <body>
+
+	<form>
+		<p class="ur"> لفظ کو ڈبل کلک کرنے پر نئی ونڈو میں تھیسارس کھل جائے گا۔  jQueryکا پلگ اِن <a href="https://github.com/awaisathar/thesaurusize" target="_blank">یہاں سے حاصل کریں</a></p>
+		<p id="q" class="ur">
+پاک سرزمین شاد باد <br/>
+کشور حسین شاد باد<br/>
+تو نشان عزم عالیشان<br/>
+! ارض پاکستان<br/>
+مرکز یقین شاد باد<br/>
+<br/>
+پاک سرزمین کا نظام<br/>
+قوت اخوت عوام<br/>
+قوم ، ملک ، سلطنت<br/>
+! پائندہ تابندہ باد<br/>
+شاد باد منزل مراد<br/>
+<br/>
+:پرچم ستارہ و ہلال<br/>
+رہبر ترقی و کمال<br/>
+ترجمان ماضی شان حال<br/>
+! جان استقبال<br/>
+سایۂ خدائے ذوالجلال<br/>
+        </p>
+	</form>
+  </body>
+</html>
