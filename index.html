@@ -6,12 +6,17 @@
     <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
 	<script src="jquery.urduthesaurus.js"></script>
 	<style>
+    @font-face {
+        font-family: mehr;
+        src: url(mehr.ttf);
+    }
+
 	body {
 		direction: rtl;
 		padding:10px;
 	}
 	.ur {
-		font-family: 'Jameel Noori Nastaleeq', 'Noto Naskh Arabic', sans serif;;
+		font-family: mehr,'Jameel Noori Nastaleeq', 'Noto Naskh Arabic', sans serif;;
 	}
 	#q {
 		vertical-align: middle;
@@ -26,6 +31,11 @@
 		color:#4ea0e8;
 		text-decoration:none;
 	}
+    .footer {
+        font-size:7pt;
+        color:#aaaaaa;
+        direction: ltr;
+    }
 	</style>
 	<script>
 		$(function() {
@@ -57,5 +67,7 @@
 سایۂ خدائے ذوالجلال<br/>
         </p>
 	</form>
+    <p>&nbsp;</p>
+    <p class="footer">This page uses "Mehr-e-Nastaliq" font by <a href="http://csalt.itu.edu.pk">CSaLT</a> which is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
   </body>
 </html>
