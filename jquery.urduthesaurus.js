@@ -10,7 +10,7 @@ $.fn.thesaurusize = function (options)
         }
         word = word.trim();
         if (word!='') {
-            window.open("http://urduthesaurus.com/word?q="+word);
+            window.open("http://urduthesaurus.com/search?q="+word);
         }
 	});
 };
